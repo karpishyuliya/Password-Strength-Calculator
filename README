@@ -1,0 +1,14 @@
+======================================
+==== Password Strength Calculator ====
+======================================
+
+Creator: sp0rus (John Stitt)
+Language: Java
+Purpose: A very basic password strength calculator I created for fun one day.
+         Every now and then more functionality is added, or old code is improved.
+Usage:
+        Compile: javac PasswordCalculator.java
+        Run with arguments: java PasswordCalculator [PASSWORD]
+        Run w/o arguments: java PasswordCalculator
+
+Not the most useful thing in the world, but it's something.
