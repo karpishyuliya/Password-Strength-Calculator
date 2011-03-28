@@ -7,9 +7,9 @@
 import java.util.*;
 
 public class PasswordStrength {
-        
+
         final static double POSSIBLECHARS = 62; //Upper and Lower Alphebet (52), Arabic Numberals (10)
-        
+
 	public static void main( String[] args ){
 		double entropy = 0;
 		int pwlength = 0;
@@ -21,12 +21,12 @@ public class PasswordStrength {
                         entropy = entropy(pwlength);
                 }
                 else{
-		        Scanner scan = new Scanner( System.in );
-		        System.out.print( "Enter a password (numbers and characters, not case sensitive): ");
+                        Scanner scan = new Scanner( System.in );
+                        System.out.print( "Enter a password (numbers and characters, not case sensitive): ");
 
-		        password = scan.next();
-		        pwlength = password.length();
-		        entropy = entropy(pwlength);
+                        password = scan.next();
+                        pwlength = password.length();
+                        entropy = entropy(pwlength);
 		}
 		System.out.println( "The password entered has " + (int)entropy + " bits of entropy." );
 	}
