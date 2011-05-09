@@ -7,8 +7,8 @@ Language: Java
 Purpose: A very basic password strength calculator I created for fun one day.
          Every now and then more functionality is added, or old code is improved.
 Usage:
-        Compile: javac PasswordCalculator.java
-        Run with arguments: java PasswordCalculator [PASSWORD]
-        Run w/o arguments: java PasswordCalculator
+        Compile: javac pwstrength.java
+        Run with arguments: java pwstrength [PASSWORD]
+        Run w/o arguments: java pwstrength
 
 Not the most useful thing in the world, but it's something.
