@@ -8,9 +8,9 @@ import java.util.*;
 
 public class pwstrength {
 
-        final static double CHARSET_SIZE = 62;
+        private final static double CHARSET_SIZE = 62;
 
-        public static void main( String[] args ){
+        public static void main( String[] args ){ // NOPMD by sp0rus on 6/5/11 10:23 PM
         	double entropy = 0;
         	int pwlength = 0;
         	String password;
@@ -32,8 +32,8 @@ public class pwstrength {
         }
 
         //does base-2 logarithm
-        public static double log2(double d) {
-        	return Math.log(d)/Math.log(2.0);
+        public static double log2(double number) { // NOPMD by sp0rus on 6/5/11 10:25 PM
+        	return Math.log(number)/Math.log(2.0);
         }
         private static double pwentropy(int length){
 	        return length*(log2(CHARSET_SIZE));
